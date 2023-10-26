@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: white;
+}
+
+.titre{
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .titre a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .computer{
+      height: 3.5rem;
+      width: 3.5rem;
+      background-color: brown;
+      border-radius: 100%;
+      border: 2px solid blue;
+      color: white;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      margin-left: 1rem;
+  }
+  .display{
+      display: flex;
+      margin-top: 2rem;
+      justify-content: space-around;
+  }
+  
+  .recherche{
+      height: 2.5rem;
+      width: 32rem;
+      border:1px solid black;
+      border-radius: 50px;
+      padding-left: 1rem;
+  }
+  
+  .profil{
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
+      margin-right: 2rem;
+  }
+  
+  .panier{
+      height: 2rem;
+      width: 2rem;
+  }
+  .grand{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items:flex-end;
+  }
+hr{
+    margin-top: 2.5rem;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display1{
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 5rem;
+}
+.logo{
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.bleu{
+    background-color: rgb(1, 1, 100);
+    height: 7rem;
+    margin-top: 1.5rem;
+}
+
+.fourni{
+    color :white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 3rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.carr1{
+    height: 12rem;
+    width: 15rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+.carr2{
+    height: 13rem;
+    width: 15rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+.carr3{
+    height: 13rem;
+    width: 15rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+.carr4{
+    height: 46rem;
+    width: 15rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+.bord{
+    margin-left: 1.5rem;
+}
+
+.fournituree{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: rem;
+    margin-top: 4rem;
+}
+
+.car{
+    height: 19rem;
+    width: 17rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.car img{
+    margin-left: 2.2rem;
+}
+
+.droit{
+    margin-top: 5rem;
+    margin-right: 10rem;
+}
+
+.parent1{
+    display: flex;
+    margin-right: rem;
+}
+
+.fourniture{
+    font-size: 4rem;
+}
+
+.carr1 p{
+    font-size: 26px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.carr2 p{
+    font-size: 26px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.carr3 p{
+    font-size: 26px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.carr4 p{
+    font-size: 26px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.cahier{
+    font-size: 20px;
+}
+.prix{
+    font-size: 20px;
+    color:red;
+}
+.centre{
+    text-align: center;
+}
+.select{
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 8rem;
+}
+.petit p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: -2rem;
+}
+.display2{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.maron{
+    background-color: rgb(227, 213, 213) 
+}
+.display2 a{
+    text-decoration: none;
+    color:black
+}
+
+.redress{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.ro{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid black;
+    margin-right: 1rem;
+    padding-left: 0.7rem;
+    padding-top: 0.40rem;
+}
+
+.ro:hover{
+    background-color: rgb(1, 1, 100);
+    color: white;
+}
+
+.redress a{
+    text-decoration: none;
+    color: rgb(1, 1, 100);
+}
+
+footer{
+    height: 7rem;
+    width: 100%;
+    background-color: rgb(1, 1, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+footer .copy{
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

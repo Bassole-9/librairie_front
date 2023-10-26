@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/panier_origiStyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="bloc">
+<header>
+
+    <div class="grand">
+        <div class="display">
+            <div class="titre">
+                <a href="./"><p>Tre-Computer</p></a>
+            </div>
+            <div>
+                <p class="computer">TC</p>
+            </div>
+        </div>
+
+        <div>
+            <input type="text" name="nom" placeholder="produit,marque,etc"class="recherche">
+        
+        </div>
+
+        <div class="display">
+            <div class="profil">
+                <a href="./"><img src="../image/utilisateur.jpeg" height="100%" width="100%"></a>
+            </div>
+            <div class="panier">
+                <a href="./panier.html"><img src="../image/panier.jpeg" height="100%" width="100%"></a>
+            </div>
+        </div>
+    </div>
+        
+            <hr>
+        <div class="end">
+
+                <nav>
+                    <ul>
+                        <a href="../index.html"><li>Acceuil</li></a>
+                        <a href="./page1.html"><li>Matériel scolaire</li></a>
+                        <a href="./page2.html"><li>Matériel de bureau & Informatique</li></a>
+                        <a href="./"><li>Carrière</li></a>
+                        <a href="./"><li>Blog</li></a>
+                        <a href="./"><li>Contact</li></a>
+                    </ul>
+                </nav>
+                    <div class="display1">
+                <div class="logo">
+                <a href="./"><img src="../image/fb.jpeg" height="100%" width="100%"></a>
+                </div>
+                    <div class="logo">
+                        <a href="./"><img src="../image/tw.jpeg" height="100%" width="100%"></a>
+                        </div>
+                            <div class="logo">
+                            <a href="./"><img src="../image/ins.jpeg" height="100%" width="100%"></a>
+                        </div>
+                    </div>
+            
+        </div>
+</header>
+                <div class="bleu">
+                    <p class="fourni">Chariot</p>
+                </div>
+
+                <div class="pro">
+                    <div class="produit"></div>
+                </div>
+
+
+
+                <section id="basket" class="flex-column-centre">
+                    <div id="blocTitrePanier" class="flex-start size">
+                        <h2 id="titre-panier">
+
+                           <p>
+                                veuillez ajoutez du contenue dans votre panier<br>
+                                pas de poduit
+                           </p> 
+                        </h2>
+                    </div>
+
+                <div id="basket-fiche" class="flex-around">
+                    <div id="injectJs">
+                        <div id="basket-produit" class="flex-aroun">
+                            <div id="block-image">
+                                <img src="../image/agra.jpeg">
+                            </div>
+                                <div id="blocProduit" class="flex-colum-around">
+                                    <h2>produit</h2>
+                                    <p></p>
+                                    <p>0 FCFA</p>
+                                    <p>referrence</p>
+                                    <p>en stock</p>
+                                </div>
+                                <div id="bloc-change-produit" class="flex-around">
+                                    <div class="flex-centre">
+                                        <button class="button-moins">-</button>
+                                        <span class="produit-quantite">0</span>
+                                        <button class="button-plus">+</button>
+                                    </div>
+
+                                    <div><p>0 FCFA</p></div>
+                                    <div><i class="fa-solid fa-trash-can"></i></div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th class="produit">produit</th>
+                                <th class="prix">prix</th>
+                                <th class="quantité">quantité</th>
+                                <th class="sous-total">sous-total</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr id="">
+                                <td class="espace1"><button class="sup">x</button></td>
+                                <td class="espace1"></td>
+                                <td class="espace1">souris hp</td>
+                                <td class="espace1">2000</td>
+                                <td class="espace1"><div class="increment">
+                                    <button>-</button>
+                                    <div class="carre1"><p>2</p></div>
+                                    <button>+</button>
+                                </div></td>
+                                <td class="espace1">6000</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr id="">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><button class="button1"><p>continuer shopping</p></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="droit">
+                    <p class="font">Total panier</p>
+                    <form>
+                        <div>
+                            <div class="rang1">
+                                <p class="sous">sous-total</p>
+                                <p class="total">6000FCFA</p>
+                            </div>
+                            <div class="rang2">
+                            
+                                <div class="put">
+                                        <div class="rand">
+                                            <div>
+                                                <input type="radio" id="nom" name="sexe" value="">
+                                                <label for="nom"> Frais de livraison (1000fr)</label> 
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="nom" name="sexe" value="">
+                                                <label for="nom"> Retrait sur le point de vente</label>   
+                                            </div>
+        
+                                        </div>   
+                                </div>
+                                <p class="sous">Expédition</p>  
+                                        
+                            </div>
+                            <div class="rang3">
+                                <p class="sous">Total</p>
+                                <p class="total">6000FCFA</p>
+                            </div>
+
+                            <button type="submit" class="button2">valider la commande</button>    
+                        </div>
+                    </form>
+                    
+                </div>
+    <footer>
+        <p class="copy">&copy;copyright2023 All right recerve</p>
+    </footer>
+    
+</body>
+</html>
