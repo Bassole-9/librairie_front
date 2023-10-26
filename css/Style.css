@@ -48,11 +48,10 @@ body{
   }
   
   .profil{
-      height: 2rem;
-      width: 2rem;
-      margin-right: 1rem;
-      margin-right: 2rem;
-  }
+    height: 2rem;
+    width: 2rem;
+    margin-right: 5rem;
+}
   
   .panier{
       height: 2rem;
@@ -226,6 +225,13 @@ footer .copy{
     font-size: 25px;
     font-weight: bold;
     color: brown;
+}
+
+.connex{
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
