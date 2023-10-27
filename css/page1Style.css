@@ -203,6 +203,7 @@ nav ul a{
 .prix{
     font-size: 20px;
     color:red;
+    margin-top: -0.8rem;
 }
 .centre{
     text-align: center;
@@ -273,6 +274,19 @@ footer .copy{
     font-weight: bold;
 }
 
+.bonjour{
+    margin-left:-0.5rem;
+}
+
+button{
+    height: 1.5rem;
+    width: 8rem;
+    margin-top: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: beige;
+    cursor: pointer;
+}
 
 
 
