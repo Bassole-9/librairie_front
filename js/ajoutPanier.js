@@ -3,7 +3,7 @@ const countPanier = JSON.parse(localStorage.getItem("panier"));
 console.log(countPanier.length);
 const count = document.querySelector(".count")
 console.log(count);
-count.textContent = countPanier === null ? 0 : countPanier.length
+count.textContent = countPanier === null ? 0 : countPanier.length;
 
 
 

@@ -168,6 +168,21 @@ color: white;
     color: white;
     }
 
+button{
+    border: none;
+    background-color: white;
+    width: 7rem;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 100);
+    color: white;
+    }
+
     
 
 

@@ -253,6 +253,14 @@ background-color: red;
 margin-right: 1rem;
 }
 
+#titre-panier{
+margin-top: 2rem;
+}
+
+#titre-panier p{
+    margin-left: 3.5rem;
+}
+
 
 
 

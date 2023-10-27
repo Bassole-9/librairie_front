@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: white;
+}
+
+.titre{
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .titre a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .computer{
+   
+      height: 3.5rem;
+      width: 3.5rem;
+      background-color: brown;
+      border-radius: 100%;
+      border: 2px solid blue;
+      color: white;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      margin-left: 1rem;
+  }
+  .display{
+      display: flex;
+      margin-top: 2rem;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .display img{
+    margin-right: 1rem;
+  }
+  
+  .recherche{
+      height: 2.5rem;
+      width: 32rem;
+      border:1px solid black;
+      border-radius: 50px;
+      padding-left: 1rem;
+  }
+  
+  .profil{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    margin-right: 2rem;
+}
+
+.panier{
+    height: 2rem;
+    width: 2rem;
+}
+  .grand{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items:flex-end;
+  }
+hr{
+    margin-top: 2.5rem;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display1{
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 5rem;
+}
+.logo{
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer{
+    height: 7rem;
+    width: 100%;
+    background-color: rgb(1, 1, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+footer .copy{
+    color:white;
+    font-weight: bold;
+}
+
+.achetez{
+    margin-top: 2rem;
+}
+
+.center{
+    text-align: center;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cercle{
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -2.3rem;
+
+}
+
+.car{
+    height: 25rem;
+    width: 17rem;
+    border: 1px solid rgb(215, 211, 211);
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.car img{
+    margin-left: 2.2rem;
+}
+
+.parent1{
+    display: flex;
+}
+.centre{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cahier{
+    font-size: 20px;
+}
+.prix{
+    font-size: 20px;
+    color:red;
+}
+.deplacement{
+    margin-top: 9rem;
+}
+
+.carre1{
+    height: 27rem;
+    width: 34rem;
+    border: 1px solid black;
+    margin-left: 6rem;
+}
+.carre2{
+    height: 27rem;
+    width: 34rem;
+    border: 1px solid black;
+    margin-right: 6rem;
+}
+.carre{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.font{
+    font-size: 40px;
+}
+
+.triangle{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent transparent rgb(1, 1, 100);
+    display: flex;
+    margin-left: 2.55rem;
+    margin-top: 0.5rem;
+    transform: rotate(90deg);  
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle .car{
+        height: 17rem;
+        width: 22rem;
+        border: 1px solid rgb(215, 211, 211);
+        margin-top: 4rem;
+        margin-right: 2rem;
+        border: none;
+}
+
+.absolue{
+    display: flex;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+}
+
+.connex{
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
