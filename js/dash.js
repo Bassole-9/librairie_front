@@ -1,12 +1,11 @@
 let btnDeco = document.querySelector("#deco")
-const infoUser = JSON.parse(localStorage.getItem('session'))
 
 
 function deconnexion() {
     /* const yy = confirm("voulez-vous vous deconnecter ");
     
     if (yy = true) { */
-        localStorage.clear('session')
+        sessionStorage.clear('session')
         window.location.href = '../index.html'
     /* }else{
         window.location.href = '../dash.html'; 
